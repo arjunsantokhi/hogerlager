@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    color: white;
+    background-color: rgb(0 100 197);
+    background-attachment: fixed;
+    background-image: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h2.red{
+    color: red;
+}
+
+.topnav {
+    background-color: rgba(2, 0, 36, 0.24);
+    overflow: hidden;
+}
+
+input{
+    text-align: center;
+    background-color: #020027;
+    color: white;
+}
+
+.middle{
+    margin: auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.myLinks{
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;   /* Height of the footer */
+    background: rgba(2, 0, 36, 0.137);
+    text-align: center;
+}
+
+.wrapper{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(2,0,36);
+    transition: all 0.2s;
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+.wrapper:hover{
+    transition: all 0.2s;
+    box-shadow: 0px 15px 15px 0px black;    
+}
+
+.button{
+    background-color: rgb(9, 44, 121);
+    color: white;
+    width: 75px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 0%;
+    box-shadow: 0 3px #fff;
+}
+
+.button:hover{
+    background-color: rgb(45, 89, 182);
+    box-shadow: 0 5px #fff;
+    transform: translateY(-2px);
+}
+
+.button:active{
+    box-shadow: 0 0px #fff;
+    transform: translateY(3px);
+}
+
+.menuBtn{
+    background-color: #020027;
+    color: white;
+    height: 100%;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(2, 0, 36, 0.24);
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color:rgb(45, 89, 182);
+}
+
+.sidebar{
+    background-color: #000000e8;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+.sidebar .text{
+    margin: 20px;
+    text-align: center;
+}
+
+hr{
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+        width: auto;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        padding: 10px;
+        background: rgb(2,0,36);
+        box-shadow: 0px 10px 10px 0px black;
+    }
+
+    .menuBtn{
+        background-color: #020027;
+        color: white;
+        height: 100%;
+        display: block;
+    }
+
+    .creditsPc{
+        display: none;
+    }
+
+    .namePc{
+        display: none;
+    }
+}

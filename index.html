@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger Lager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="sidebar myLinks">
+            <ul>
+                <li><a href="#">Hoger Lager</a></li>
+                <li class="menuBtnTwo right"><a href="#">☰</a></li>
+            </ul>
+            <hr>
+            <h3 class="name text">NAME</h3>
+            <hr>
+            <h3 class="credits text">Credits:</h3>
+        </div>
+    
+        <nav class="topnav">
+            <ul>
+                <li><a href="#">Hoger Lager</a></li>
+                <li><a class="namePc" href="#"></a></li>
+                <li class="creditsPc right"><a class="creditsTwo" href="#">Credits:</a></li>
+                <li class="menuBtn right"><a href="#">☰</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <h1>Hoger Lager</h1>
+            <hr>
+            <h2>Spelregels:</h2>
+            <p>De computer krijgt een nummer en de speler moet raden of zijn nummer HOGER of LAGER is dan de nummer van de computer. Je krijgt standaard 100 credits, als je wint krijg je 10 credits erbij maar als je verliest dan verlies je 30 credits.</p>
+            <h2 class="red">ALS JE 0 CREDITS HEBT DAN IS HET GAME OVER!</h2>
+            <hr>
+            <br>
+            <button class="nextBtn button">Volgende</button>
+            <br>
+            <br>
+        </div>
+
+        <div class="wrapper">
+            <h1>Hoger Lager</h1>
+            <hr>
+            <h2>Username:</h2>
+            <input type="text" name="username" class="username">
+            <hr>
+            <br>
+            <button class="nextBtn button">Volgende</button>
+            <br>
+            <br>
+        </div>
+
+        <div class="wrapper">
+            <h1 class="computerNumber"></h1>
+            <h1 class="playerNumber"></h1>
+            <hr>
+            <input type="radio" name="options" value="Hoger"> Hoger
+            <br>
+            <input type="radio" name="options" value="Lager"> Lager
+            <hr>
+            <br>
+            <button class="startBtn button">Start</button>
+            <button class="playBtn button">Play</button>
+            <button class="restartBtn button">Restart</button>
+            <br>
+            <br>
+            <h1 class="status"></h1>
+        </div>
+    </main>
+
+    <footer>
+        <h4>Gemaakt door Arjun Santokhi</h4>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="/js/dom.js"></script>
+</body>
+</html>
